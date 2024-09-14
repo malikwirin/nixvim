@@ -60,6 +60,7 @@ let
     {
       name = "clarinet";
       description = "Write, test and deploy high-quality smart contracts to the Stacks blockchain and Bitcoin.";
+      package = null;
       cmd = cfg: [
         "${cfg.package}/bin/clarinet"
         "lsp"
