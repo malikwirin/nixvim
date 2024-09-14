@@ -58,6 +58,14 @@ let
       package = pkgs.clang-tools;
     }
     {
+      name = "clarinet";
+      description = "Write, test and deploy high-quality smart contracts to the Stacks blockchain and Bitcoin.";
+      cmd = cfg: [
+        "${cfg.package}/bin/clarinet"
+        "lsp"
+      ];
+    }
+    {
       name = "clojure-lsp";
       description = "clojure-lsp for Clojure";
       serverName = "clojure_lsp";

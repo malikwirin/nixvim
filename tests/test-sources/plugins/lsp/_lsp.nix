@@ -112,6 +112,7 @@
             biome.enable = true;
             ccls.enable = true;
             clangd.enable = true;
+            clarinet.enable = true;
             clojure-lsp.enable = true;
             cmake.enable = true;
             csharp-ls.enable = true;
